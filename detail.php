@@ -68,7 +68,7 @@ BEGIN_TABLE;
                             <td>%s</td>
                             <td>%u</td>
                         </tr>',
-            $r['num'],
+            $r['num'] . ' (корп. ' . strval($r['bc']) . ')',
             $r['rc'],
             $r['wtype'],
             $r['start'],
